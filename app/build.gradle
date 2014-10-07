@@ -1,0 +1,51 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion '20.0.0'
+    defaultConfig {
+        packageName "com.ErNicoSystem.podemosmeco"
+        minSdkVersion 10
+        targetSdkVersion 20
+        versionCode 1
+        versionName '1.1'
+
+        signingConfigs {
+            debug {
+                
+            }
+
+
+            release {
+                
+            }
+        }
+    }
+    buildTypes {
+        debug {
+            debuggable true
+            jniDebugBuild false
+            signingConfig signingConfigs.debug
+        }
+        release {
+            debuggable false
+            jniDebugBuild false
+            signingConfig signingConfigs.release
+        }
+    }
+//        release {
+//            runProguard false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:20.+'
+    compile 'com.android.support:appcompat-v7:20.+'
+    compile 'com.android.support:support-v4:20.+'
+    compile 'com.google.android.gms:play-services:4.3.23'
+    compile files('libs/droidText.0.2.jar')
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\app\build\pre-dexed\debug\droidText.0.2-126c5ebcf1eecd2193274270edc3c40668191c3a.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\app\libs\droidText.0.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8d3b2e377acd34e33c3e758aa512e1745c2c9401"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\app\build\pre-dexed\debug\classes-955b37e1608cc18d359d9d982c95caef9254003b.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\build\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1\app\build\pre-dexed\debug\classes-dd31f9886dd25261efa2537bef23cd11b7c43e37.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1\build\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\app\build\pre-dexed\debug\classes-09a4c2d03ac5d43dfc803c36f7290c5d381b13e6.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\build\exploded-aar\com.google.android.gms\play-services\4.3.23\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7676c0cb230efa6ac41c47867d372ed5913029d4"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1\app\build\pre-dexed\debug\support-v4-19.1.0-7672f1b5cc7e8e8b29689406d58771d5e38138df.jar"
+        jar="C:\Android-Sdk\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1\app\build\pre-dexed\debug\classes-a9d47dd9fc4aa62c15d20253a461dc047bdbee35.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1\build\exploded-aar\com.google.android.gms\play-services\4.3.23\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7676c0cb230efa6ac41c47867d372ed5913029d4"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1\app\build\pre-dexed\debug\droidText.0.2-71b81510783837cadf2b843abf11df7a9fb9d61f.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1\app\libs\droidText.0.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8d3b2e377acd34e33c3e758aa512e1745c2c9401"/>
+
+</pre-dex-items>

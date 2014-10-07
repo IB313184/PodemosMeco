@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=0.1, maximum-scale=3">
+			<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css"/>
+			<link rel="stylesheet" href="themes/miEstilo.css"/> 
+			<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+			<script type="text/javascript" src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+			
+
+			<title>Relatos</title>
+	</head>
+	<body>
+
+		<!-- PAGINA DE INICIO -->
+    <section id="inicio" data-role="page">
+    	<header data-role="header" data-icon="#inicio">
+    		<nav data-role="navbar">
+				<center>
+			<div class="ui-grid-d center">
+			    <div class="ui-block-a"><a href="#inicio" class="ui-shadow ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" data-transition="flip">Inicio</a></div>
+			    <div class="ui-block-b"><a href="#noticias" class="ui-shadow ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext ui-btn-inline" data-transition="flip">Noticias</a></div>
+			    <div class="ui-block-c"><a href="#todos" class="ui-shadow ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext ui-btn-inline" data-transition="flip">Enlaces</a></div>
+			    <div class="ui-block-d"><a href="#lista" class="ui-shadow ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-inline" data-transition="flip">Lista</a></div>
+			    <div class="ui-block-e"><a href="#contacto"class="ui-shadow ui-btn ui-corner-all ui-icon-comment ui-btn-icon-notext ui-btn-inline" data-transition="flip">Contactos</a></div>
+			</div>
+			</center>
+
+			</nav>
+	   	</header><!-- /header -->
+    
+    	<article data-role="content">
+    		<center><img src="https://drive.google.com/file/d/0BxeagsjJRhCPMmVsc3VsSmVuSWM/edit?usp=sharing"></center>
+    		<p> Bienvenido a esta Web de prueba, en la que intentaremos dar un servicio de ayuda a nuestros afiliados, a fin de ser mas directos y agiles en solucion de problemas ante los abusos de nuestra empresa.
+
+    		gracias .</p>
+    	</article><!-- /content -->
+ 		<footer>
+			
+		</footer>
+    </section>
+
+<!-- PAGINA DE NOSOTROS -->
+    <section id="noticias" data-role="page">
+
+    	<header data-role="header">
+    		<nav data-role="navbar">
+				<center>
+			<div class="ui-grid-d center">
+			    <div class="ui-block-a"><a href="#inicio" class="ui-shadow ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" data-transition="flip">Inicio</a></div>
+			    <div class="ui-block-b"><a href="#noticias" class="ui-shadow ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext ui-btn-inline" data-transition="flip">Noticias</a></div>
+			    <div class="ui-block-c"><a href="#todos" class="ui-shadow ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext ui-btn-inline" data-transition="flip">Enlaces</a></div>
+			    <div class="ui-block-d"><a href="#lista" class="ui-shadow ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-inline" data-transition="flip">Lista</a></div>
+			    <div class="ui-block-e"><a href="#contacto"class="ui-shadow ui-btn ui-corner-all ui-icon-comment ui-btn-icon-notext ui-btn-inline" data-transition="flip">Contactos</a></div>
+			</div>
+			</center>
+
+			</nav>
+	   	</header><!-- /header -->
+
+    	<article data-role="content" data-theme="a">
+    		<center><h3>Relatos</h3></center>
+    		<div data-role="collapsible-set" data-transition="drop">
+    			<center><img src="https://drive.google.com/file/d/0BxeagsjJRhCPWXNxbzhpV2FMcmM/edit?usp=sharing"></center>
+    			<br/>
+	    		<ul data-role="listview">
+		<li>
+			<a href="#susurrosdebesos">
+			<h3>Susurro De Besos</h3>
+			</a>
+		</li>
+		
+	</ul>
+</div>
+    	</article><!-- /content -->
+
+ 		<footer>
+			
+		</footer>
+
+	</section>
+
+	<!-- PAGINA DE CONTACTO -->
+	<section id="contacto" data-role="page">
+		<header data-role="header">
+    		<nav data-role="navbar">
+				<center>
+			<div class="ui-grid-d center">
+			    <div class="ui-block-a"><a href="#inicio" class="ui-shadow ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" data-transition="flip">Inicio</a></div>
+			    <div class="ui-block-b"><a href="#noticias" class="ui-shadow ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext ui-btn-inline" data-transition="flip">Noticias</a></div>
+			    <div class="ui-block-c"><a href="#todos" class="ui-shadow ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext ui-btn-inline" data-transition="flip">Enlaces</a></div>
+			    <div class="ui-block-d"><a href="#lista" class="ui-shadow ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-inline" data-transition="flip">Lista</a></div>
+			    <div class="ui-block-e"><a href="#contacto"class="ui-shadow ui-btn ui-corner-all ui-icon-comment ui-btn-icon-notext ui-btn-inline" data-transition="flip">Contactos</a></div>
+			</div>
+			</center>
+
+			</nav>
+	   	</header><!-- /header -->
+
+		<article data-role="content" data-theme="a">
+			<center><h3>Contacta con Nosotros</h3></center>
+			<form name="consulta" action="enviar.php" method="post">
+				<input name="nombre" id="nombre" type="text" placeholder="Nombre"/>
+				<input name="correo" id="correo"type="text" placeholder="Correo electronico"/>
+				<textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe aqui tu consulta" /></textarea>
+				<div class="ui-grid-a">
+					<div class="ui-block-a"><input type="submit" value="Enviar" /></div>
+					<div class="ui-block-b"><input type="reset" value="Borrar" /></div>
+				</div>
+				
+			</form>
+
+ 		</article><!-- /content -->
+
+		<footer>
+			
+		</footer>
+
+	</section><!-- /page -->
+
+	<!-- Pagina enlaces -->
+<section id="todos" data-role="page">
+
+		<header data-role="header">
+    		<nav data-role="navbar">
+				<center>
+			<div class="ui-grid-d center">
+			    <div class="ui-block-a"><a href="#inicio" class="ui-shadow ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" data-transition="flip">Inicio</a></div>
+			    <div class="ui-block-b"><a href="#noticias" class="ui-shadow ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext ui-btn-inline" data-transition="flip">Noticias</a></div>
+			    <div class="ui-block-c"><a href="#todos" class="ui-shadow ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext ui-btn-inline" data-transition="flip">Enlaces</a></div>
+			    <div class="ui-block-d"><a href="#lista" class="ui-shadow ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-inline" data-transition="flip">Lista</a></div>
+			    <div class="ui-block-e"><a href="#contacto"class="ui-shadow ui-btn ui-corner-all ui-icon-comment ui-btn-icon-notext ui-btn-inline" data-transition="flip">Contactos</a></div>
+			</div>
+			</center>
+
+			</nav>
+	   	</header>
+
+	<article data-role="content" data-theme="a">
+		<center><h3>Campañas y Noticias Externas</h3></center>
+		<div class="ui-grid-a">
+			<div class="ui-block-a"><a href="http://oiga.me/" data-transition="flip"><img src="http://www.cgt.org.es/sites/default/files/imagecache/banner-sidebar-left/Baner-CGT-Oigame.png"></a></div>
+			<div class="ui-block-b"><a href="https://www.youtube.com/channel/UCZ8dyFKe0hqvhZuFMjTjthw" data-transition="flip"><img src="http://www.cgt.org.es/sites/default/files/imagecache/banner-sidebar-left/TV%20trans.png"></a></div>
+			<div class="ui-block-c"><a href="https://play.google.com/store/apps/details?id=com.mobincube.android.sc_KRSZ7" data-transition="flip"><img src="http://www.cgt.org.es/sites/default/files/imagecache/banner-sidebar-left/movil.jpg"></a></div>
+		</div>
+	</article>
+
+	<footer data-role="footer" data-position="fixed" data-theme="c">
+			
+		</footer>
+
+	</section>
+
+	<!-- lista -->
+<section id="lista" data-role="page">
+
+		<header data-role="header">
+			<nav data-role="navbar">
+				<center>
+			<div class="ui-grid-d center">
+			    <div class="ui-block-a"><a href="#inicio" class="ui-shadow ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" data-transition="flip">Inicio</a></div>
+			    <div class="ui-block-b"><a href="#noticias" class="ui-shadow ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext ui-btn-inline" data-transition="flip">Noticias</a></div>
+			    <div class="ui-block-c"><a href="#todos" class="ui-shadow ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext ui-btn-inline" data-transition="flip">Enlaces</a></div>
+			    <div class="ui-block-d"><a href="#lista" class="ui-shadow ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-inline" data-transition="flip">Lista</a></div>
+			    <div class="ui-block-e"><a href="#contacto"class="ui-shadow ui-btn ui-corner-all ui-icon-comment ui-btn-icon-notext ui-btn-inline" data-transition="flip">Contactos</a></div>
+			</div>
+			</center>
+
+			</nav>
+	   	</header>
+
+	<article data-role="content" data-theme="a">
+		<center><h3>Enlaces Comunidad</h3></center>
+
+	<ul data-role="listview">
+		<li>
+			<a href="http://www.cgt-lkn.org/euskadi">
+			<img src="http://www.cgt.org.es/sites/default/files/imagecache/banner-sidebar-left/Cabecera%20Euskadi%20web%20CGT.jpg"><h3>Cgt Euskadi</h3>
+			<p>Euskadi</p>
+			</a>
+		</li>
+	</ul>
+	</article>
+
+	<footer>
+			
+	</footer>
+</section>
+
+<!-- PAGINA susurro de besos -->
+    <section id="susurrosdebesos" data-role="page">
+    	<header data-role="header" data-icon="#inicio">
+    		<nav data-role="navbar">
+				<center>
+			<div class="ui-grid-d center">
+			    <div class="ui-block-a"><a href="#inicio" class="ui-shadow ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline" data-transition="flip">Inicio</a></div>
+			    <div class="ui-block-b"><a href="#noticias" class="ui-shadow ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext ui-btn-inline" data-transition="flip">Noticias</a></div>
+			    <div class="ui-block-c"><a href="#todos" class="ui-shadow ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext ui-btn-inline" data-transition="flip">Enlaces</a></div>
+			    <div class="ui-block-d"><a href="#lista" class="ui-shadow ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-inline" data-transition="flip">Lista</a></div>
+			    <div class="ui-block-e"><a href="#contacto"class="ui-shadow ui-btn ui-corner-all ui-icon-comment ui-btn-icon-notext ui-btn-inline" data-transition="flip">Contactos</a></div>
+			</div>
+			</center>
+
+			</nav>
+	   	</header><!-- /header -->
+<body>
+
+<div>
+
+<p> 00000000000000000000000000000000000000000000000000000000000000000000000000000000</p>
+
+<p> Susurro de Besos, ma&ntilde;ana.</p>
+
+<p> 00000000000000000000000000000000000000000000000000000000000000000000000000000000</p>
+<p></p>
+
+<p>El auditorio entero permanece en vilo mientras Samuel desliza el arco lentamente, alargando la &uacute;ltima nota a prop&oacute;sito.  Est&aacute; tan concentrado que ni siquiera se da cuenta de que la pieza a concluido y &eacute;l sigue con los ojos cerrados hasta que los primeros aplausos inundan el silencio de la estancia.</p>
+
+<p>Exhala el aire que ha estado retenido en sus pulmones en cuanto los primeros espectadores se ponen de pie y el soniquete de las palmas se transforma lentamente en una ruidosa ovaci&oacute;n.</p>
+
+<p>Desliza el viol&iacute;n desde su barbilla hasta el pecho y lo mantiene ah&iacute;, casi apretado contra su coraz&oacute;n que en ese instante martillea contra sus costillas brutalmente.</p>
+
+<p>El culpable de su pulso acelerado se encuentra en primer&iacute;sima fila, con su maravillosa sonrisa inundando la fila entera de butacas y una pose de orgullo absoluto. Marc est&aacute; guap&iacute;simo con esmoquin y el morenito le dedica una reverencia desde el escenario, junto a una sonrisa t&iacute;mida que solo que nadador puede descifrar.</p>
+
+<p>Marc se&ntilde;ala el reloj cuando est&aacute; seguro de Samuel le mira y asiente entendiendo todo.</p>
+
+<p>Es su aniversario... Hoy cumplen su primer a&ntilde;o de casados.</p>
+
+<p>A&uacute;n se le le escapa una tonta risita al recodar el d&iacute;a de su boda...&#8230;..</p>
+
+<p> &ndash;&iquest;Puedo pasar?. &ndash; la voz de Sara le llega claramente pero Samuel no se mueve ni un mil&iacute;metro. </p>
+
+<p>Camina hasta &eacute;l y le acaricia el cabello con la punta de los dedos. </p>
+
+<p>&ndash;Si quieres echarte atr&aacute;s ahora es el momento. </p>
+<p>&ndash; Ahora si la mira con una sonrisa torcida. </p>
+<p>&ndash; podemos fugarnos a M&eacute;xico como en las pelis americanas, &iquest;Qu&eacute; me dices?.</p>
+
+<p>&ndash;Que est&aacute;s demasiado gorda para irnos de excursi&oacute;n. </p>
+<p>&ndash; responde divertido llev&aacute;ndose un cap&oacute;n en lo alto de la cabeza.</p>
+
+<p>&ndash;Estoy embarazada, tontolaba. No llames gorda a una mujer con las hormonas de punta a no ser que puedas escapar, y cr&eacute;eme cari&ntilde;o, no puedes. </p>
+<p>&ndash; le mira estrechando la mirada hasta hacer de sus ojos dos ranuras muy finas. </p>
+<p>&ndash; En fin, &iquest;Puedo saber por que no te has vestido a&uacute;n?.</p>
+
+<p>Samuel mira a su amiga de arriba a abajo y despu&eacute;s al maravilloso mundo oculto de la punta de sus zapatos.</p>
+
+<p>&ndash;N-no... yo... </p>
+<p>&ndash; suspira un par de veces y la chica se sienta a su lado en la cama. Se frota las manos con rapidez y la mira angustiado. &ndash; no puedo abrocharme esta cosa.</p>
+<p> &ndash; alza el chaleco del traje hasta la cara de Sara, que se va ligeramente hacia atr&aacute;s para esquivarlo. </p>
+<p>&ndash; Me tiemblan las manos, mira... soy pat&eacute;tico.</p>
+
+<p>&ndash;Un poquito si, la verdad.</p>
+<p> &ndash; le quita la prenda de las manos y le abrocha la tira trasera. </p>
+<p>&ndash; no me puedo creer que te pongas nervioso a estas alturas... si es que eres un tontito...</p>
+
+<p>&ndash;...han venido sus padres, y su hermano... </p>
+<p>&ndash; empieza a relatar y se pone mas nervioso con cada nombre que a&ntilde;ade a la lista.</p>
+
+<p>&ndash;Y David, y tu t&iacute;a Rosa, y varios de tus compa&ntilde;eros... es normal, es tu boda y hemos venido a comer gratis. </p>
+<p>&ndash; ensancha una sonrisa que contagia a su amigo. </p>
+<p>&ndash; Todo va a salir bien, ya lo ver&aacute;s.</p>
+
+<p>&ndash;No, con la suerte que tengo para todo, seguro que pasa algo horrible. La cagar&eacute; diciendo algo inapropiado, o me caer&eacute; en un charco, o el catering se perder&aacute;, o la tarta no estar&aacute; mmmpppffff. </p>
+<p>&ndash; Sara le tapa la boca con la mano para que deje de decir tonter&iacute;as.</p>
+
+<p>&ndash;Todo, y cuando digo todo, es todo, va a salir bien, &iquest;De acuerdo?. </p>
+<p>&ndash; el violinista asiente desviando la mirada receloso. </p>
+<p>&ndash; &iquest;No te mueres de ganas por verle de novio?. </p>
+<p>&ndash; asiente haciendo unos morritos muy graciosos.</p>
+<p> &ndash; Pues venga.</p>
+
+<p>La chica se pone de pie y estira la tela del vestido, un vaporoso dos piezas en negro liso, y le coge la mu&ntilde;eca para indicarle que se ponga de pie. Le obliga a ponerse de espaldas a ella y coloca el chaleco en su sitio.</p>
+
+<p>Le rodea y abrocha la prenda por delante, ajustando la corbata azul cobalto al cuello de la camisa y planchando las solapas del cuello de la camisa con la punta de los dedos.</p>
+
+<p>&ndash;Si se echa para atr&aacute;s, me caso yo contigo.</p>
+<p> &ndash; le besa la mejilla y le arrastra hasta el espejo para que se mire en &eacute;l.</p>
+<p> &ndash; mira que morenazo mas guapo.</p>
+
+<p>La &uacute;ltima frase le saca una sonrisa sincera. Sigue nervioso, pero menos.</p>
+
+<p> &ndash; &iexcl;&iexcl;Marcos, sal de ba&ntilde;o o llegaremos tarde!!.</p>
+<p> &ndash; La madre del rubio aporrea la puerta con ganas, entre gritos.</p>
+
+<p>La habitaci&oacute;n del hotel est&aacute; atestada de gente, pero a Mark no le importa, de hecho hasta le hace feliz que haya tant&iacute;sima gente como para no pensar en lo que est&aacute; a punto de hacer, y sobre todo, en que est&aacute; de los nervios.</p>
+
+<p>Ha tratado como ocho veces anudar la corbata, pero esa maldita cosa no colaboraba con &eacute;l, haciendo un nudo mas feo y desastroso que el anterior en cada nuevo intento; y su madre meti&eacute;ndole prisa cada cuatro segundos tampoco es que ayude mucho.</p>
+
+<p>Al final sale, espuma en la cara de la reciente sesi&oacute;n de afeitado, la camisa sin meter por el pantal&oacute;n, cintur&oacute;n de piel con hebilla dorada abierto, corbata en la mano.</p>
+
+<p>Su madre le bufa, literalmente, y examina su apariencia con un reniego en el rostro.</p>
+
+<p>&ndash; Por el amor de dios, Marcos, &iquest;Qu&eacute; has estado haciendo en el ba&ntilde;o tanto tiempo?. </p>
+<p>&ndash; Pasa la mano nerviosa por su pelo, echando las hebras doradas hacia atr&aacute;s, pein&aacute;ndole con los dedos.</p>
+
+<p>Aplana la camisa, y hace el adem&aacute;n de meter los faldones dentro del pantal&oacute;n, como cuando era ni&ntilde;o. Afortunadamente su padre parec&iacute;a el &uacute;nico que no estaba tan hist&eacute;rico como para atarle a un palo y acab&oacute; en medio, entre madre e hijo, con una sonrisa conciliadora.</p>
+
+<p>Tom&oacute; la corbata de color vino de los dedos del rubio, y le levant&oacute; las solapas del cuello para colocar la corbata en su sitio. </p>
+
+<p>Mark sonr&iacute;e, agradecido. A&uacute;n falta una hora y no entiende las prisas de su madre hasta que la mujer se lo aclara.</p>
+
+<p>&ndash; Date prisa, no podemos llegar tarde. </p>
+<p>&ndash; Las plumas del tocado celeste en su pelo se mueven al son de su acelerado ritmo, tomando el bolso de mano del mismo color de la mesita baja y recolocando por d&eacute;cima vez, el fular sobre sus hombros.</p>
+<p> &ndash; No voy a permitir que nadie crea que eres la novia.</p>
+
+<p>El nadador la mira, cejas alzadas, al tiempo que coloca la americana sobre sus hombros y abrocha solo los botones del medio.</p>
+
+<p>Su padre niega a la l&iacute;nea de pensamientos. Suspira y le pasa la mano por el hombro, para besar su mejilla, divertido.</p>
+
+<p>&ndash; Tu madre tiene parte de raz&oacute;n.</p>
+<p> &ndash; Recibe la mirada con un brillo auto-suficente de Dani, un par de segundos. </p>
+<p>&ndash; El fot&oacute;grafo est&aacute; abajo, en el hall, tenemos que bajar ya.</p>
+
+<p>Aunque esa era la idea, la bola de amigos y compa&ntilde;eros de equipo fue consciente de que el rubio ya estaba listo, y un aluvi&oacute;n de m&oacute;viles se pos&oacute; sobre su persona. </p>
+
+<p>Empujones, tirones, sonrisas, fotos, fotos y mas fotos. Besos, mas empujones, poses. &ldquo;Ahora conmigo, no espera, me toca a mi...&rdquo; </p>
+
+<p>Mark no se quejaba, la realidad es que tampoco ten&iacute;a que fingir las sonrisas. Estaba tan feliz que casi pod&iacute;a jurar que nunca dejar&iacute;a de tener esa expresi&oacute;n en su rostro.</p>
+
+<p>Cuando por fin fue libre, mas bien su madre tir&oacute; de &eacute;l hasta la salida, una nueva sesi&oacute;n de fotos les retras&oacute;.</p>
+
+<p>Estaba feliz, pero la verdad es que se mor&iacute;a de ganas por ver a su moreno de gala. Ten&iacute;a que estar tan guapo...</p>
+
+<p>&ndash; &iexcl;&iexcl;Eh, pixa!!.</p>
+<p> &ndash; Su hermano Oscar le dio un pu&ntilde;etazo en el hombro, como cuando eran peque&ntilde;os.</p>
+<p> &ndash; Quita esa sonrisita de tu cara o a mam&aacute; le dar&aacute; un ataque.</p>
+<p> &ndash; Solt&oacute; una risita divertido, se&ntilde;al&aacute;ndola con la cabeza.</p>
+<p> &ndash; M&iacute;rala, parece que va a volar de un momento a otro... Fijo que cuando ella se cas&oacute; no estaba tan neura.</p>
+
+<p>&ndash; Si te digo la verdad, el que quiere volar soy yo. </p>
+<p>&ndash; Le devolvi&oacute; el pu&ntilde;etazo con las mismas ganas.</p>
+<p> &ndash; V&aacute;monos ya...</p>
+
+<p>&ndash; Ahora le entran las prisas al se&ntilde;orito.</p>
+<p> &ndash; Chist&oacute; fastidiado, murmurando palabrotas mientras abr&iacute;a el camino hasta la salida.</p>
+
+<p>Su padre toc&oacute; el claxon desde la puerta del hotel, en la zona reservada para los clientes, y el rubio suspir&oacute;, sonri&oacute; feliz, y agit&oacute; la mano a modo de despedida, mientras el resto iba a la carrera cada uno a su coche.&#8230;..</p>
+
+<p>Samuel miraba por la ventanilla con la frente apoyada en el cristal. Su t&iacute;a Rosa le apretaba la mano, dulcemente. Segu&iacute;a nervioso y se notaba.</p>
+
+<p>&ndash; &iexcl;&iexcl; Para!!.</p>
+<p> &ndash; Grit&oacute; envar&aacute;ndose en el sitio. </p>
+<p>&ndash; David, para el coche.</p>
+
+<p>&ndash; &iquest;Qu&eacute; pasa?.</p>
+<p> &ndash; Sara se gir&oacute; desde el asiento delantero, mirando por las ventanillas a ver si ve&iacute;a algo.</p>
+
+<p>Samuel se baj&oacute; del coche y David tuvo que pegarse a una fila que hab&iacute;a a un lado y poner las luces de emergencia, igual de confuso que sus dos pasajeras.</p>
+
+<p>El violinista camin&oacute; hasta la acera con rapidez y sigui&oacute; al hombre que h&uacute;ia en direcci&oacute;n contraria al verse descubierto.</p>
+
+<p>&ndash; &iexcl;&iexcl;Pap&aacute;!!. </p>
+<p>&ndash; No lo dijo muy alto, pero lo suficiente como para ser escuchado sin montar un esc&aacute;ndalo en mitad de la calle. </p>
+<p>&ndash; Pap&aacute; espera.</p>
+
+<p>&ndash; Solo... </p>
+<p>&ndash; Desvi&oacute; la mirada aunque se par&oacute;. </p>
+<p>&ndash; Solo quer&iacute;a darte la enhorabuena... y decirte que no puedo venir. Estoy ocupado...</p>
+
+<p>Samuel le mir&oacute; unos segundos, sin decir nada. Una tenue sonrisa se dibuj&oacute; en su boca, comprendiendo. Su orgullo segu&iacute;a presente, no admitir&iacute;a que quer&iacute;a verle y mucho menos que le gustar&iacute;a asistir a la ceremonia.</p>
+
+<p>Aunque hab&iacute;a estado separados mucho tiempo, tanto f&iacute;sica como afectuosamente, segu&iacute;a siendo su padre, y &eacute;l su hijo, y ese v&iacute;nculo, segu&iacute;a presente. </p>
+
+<p>Gracias a la insistencia de su t&iacute;a Rosa, hab&iacute;a mandado cartas a su padre, mas o menos cada dos semanas. No cont&aacute;ndole cosas &iacute;ntimas o personales, mas bien haciendo una especie de diario de actividades. Le informaba, siempre que hab&iacute;a una audici&oacute;n, o un concierto de cierta relevancia.</p>
+
+<p>La decepci&oacute;n por su ausencia de los primeros conciertos serios de Samuel, dieron paso a la incredulidad, al comprobar, que su padre acud&iacute;a a todos los que hizo despu&eacute;s, aunque luego no lo mencionara.</p>
+
+<p>El tiempo, como todo en la vida, le hab&iacute;a hecho darse cuenta de que su padre, al igual que la madre de Mark, hab&iacute;a llevado una educaci&oacute;n y una vida mas estricta y asfixiante. Y por eso mismo, no cambiar&iacute;a su forma de ver la vida, pero si, tal y como le hab&iacute;a hecho ver su t&iacute;a, era su obligaci&oacute;n hacerle ver a su padre que siempre ser&iacute;a su hijo, con sus defectos y sus &ldquo;desviaciones&rdquo;, pero su hijo al fin y al cabo.</p>
+
+<p>&ndash; Pap&aacute;, me encantar&iacute;a que vinieras.</p>
+<p> &ndash; Sus miradas se encontraron, la sonrisa segu&iacute;a ah&iacute;, en sus labios, aunque sus ojos le estudiaban comprendiendo.</p>
+
+<p>&ndash; no puedo... ya te lo he dicho, no insistas... </p>
+<p>&ndash; Aunque no se hab&iacute;a movido, su postura daba a entender de que saldr&iacute;a corriendo de un momento a otro. Sac&oacute; un sobre cerrado del bolsillo interior de la chaqueta y se lo tendi&oacute;, firme.</p>
+<p> &ndash; Toma, c&oacute;gelo... mi regalo para ti y &#8230; ese chico.</p>
+
+<p>&ndash; Mark, pap&aacute;.</p>
+<p> &ndash; Su voz son&oacute; tan dulce que incluso el se sorprendi&oacute;.</p>
+
+<p>Aguant&oacute; la mirada severa de su padre, tranquilo. Se guard&oacute; el sobre, no quer&iacute;a iniciar una pelea dial&eacute;ctica sobre quien se quedaba el regalo, y acort&oacute; la distancia hasta el hombre para tomar su mano lentamente, d&aacute;ndole tiempo de apartarla si quer&iacute;a evitar el contacto.</p>
+
+<p>&ndash; Crees que ese ch... Mark...</p>
+<p> &ndash; Apret&oacute; con cierta fuerza los dedos de Samuel, que not&oacute; el nerviosismo de su padre en el temblor de su piel, mas evidente debido a la cercan&iacute;a.</p>
+
+<p>&ndash; Seguro que le har&aacute; igual de feliz que a mi que vengas. </p>
+<p>&ndash; Una carraspera les hizo enfocar a Sara y David, que hab&iacute;an aparcado el coche y le esperaban a un lado para no interrumpir el encuentro.</p>
+
+<p>Rosa camin&oacute; con paso firme hasta los dos, y cambi&oacute; la mano de Samuel por la suya, enhebrando el brazo y dirigi&eacute;ndole a la sala en la que se celebrar&iacute;a la ceremonia, a un par de edificios de distancia.</p>
+
+<p>&ndash; Mira que te ha costado, cabez&oacute;n.</p>
+<p> &ndash; Le rega&ntilde;&oacute;, con dulzura.</p>
+<p> &ndash; Venga, que ya estar&aacute;n todos esperando.</p>
+
+<p>Samuel suspir&oacute;. No se hab&iacute;a dado cuenta de que estaba aguantando el aire hasta ese momento. Sara le agarr&oacute; por el codo y ajust&oacute; sus pasos a los del moreno, que le dedic&oacute; una enorme sonrisa.</p>
+
+<p>Ahora sent&iacute;a que su mundo iba coloc&aacute;ndose donde siempre deber&iacute;a estar.&#8230;</p>
+
+<p>El bullicio a las puertas de la sala de ceremonias se escuchaba desde el inicio de la calle.</p>
+
+<p>Inconscientemente apret&oacute; el paso. Y luego se fren&oacute;, en cuanto le vi&oacute;.</p>
+
+<p>Mark estaba d&aacute;ndole la espalda, mirando a la carretera, esperando el coche en el que ten&iacute;a que llegar Samuel, por lo que no se di&oacute; cuenta de que ven&iacute;a caminando por el otro lado.</p>
+
+<p>&ndash; &iexcl;&iexcl;Dios!!.</p>
+<p> &ndash; Se par&oacute; y detuvo a Sara con &eacute;l.</p>
+
+<p>Le mir&oacute;, intensamente. El blanco de su traje, brillaba al sol. Su cabello, tan rubio, tan bonito. Hasta sus zapatos, de un negro brillante le gustaron, y el corte de la chaqueta, los gemelos que asomaban en los pu&ntilde;os de su camisa.</p>
+
+<p>Hasta el aire a su alrededor le maravill&oacute;, del todo.</p>
+
+<p>Se gir&oacute;, un poco, hablando con su madre, pregunt&aacute;ndole algo, y el perfil le sac&oacute; otra admiraci&oacute;n de alusiones religiosas al moreno.</p>
+
+<p>Era hermoso, mucho mas que eso.</p>
+
+<p>Marcos era un aut&eacute;ntico &aacute;ngel a sus ojos.</p>
+
+<p>Sara dio un paso atr&aacute;s, dej&aacute;ndole un poco a solas, sonriendo del mismo modo que el novio.</p>
+
+<p>&ndash;Debo reconocer que est&aacute; guap&iacute;simo.</p>
+<p> &ndash; David a su lado, la escucha, perfectamente a pesar de que la hermosa embarazada lo susurra mas para ella misma que para compartirlo con el resto.</p>
+<p> &ndash;Me alegro tanto por ellos.</p>
+
+<p>&ndash; No le har&aacute; bien al beb&eacute; que llores.</p>
+<p> &ndash; David besa su mejilla, la aprieta de un modo dulce contra &eacute;l.</p>
+
+<p>&ndash; No estoy llorando, idiota. </p>
+<p>&ndash; Se limpia, con el dorso de la mano, cuidando de mantener el maquillaje en su sitio.</p>
+<p> &ndash; Si me pongo a llorar ahora, cuando se casen ser&aacute; imparable.</p>
+
+<p>&ndash; Mi hermosa cascadita llorona y regordeta. </p>
+<p>&ndash; Bromea, en un abrazo de lo mas gracioso, la balancea entre ellos, divertido, risue&ntilde;o.</p>
+
+<p>Sara no responde, se limita a acomodarse en su pecho, y girar la cara para mirarles.</p>
+
+<p>Est&aacute; feliz por ellos, de verdad.&#8230;.</p>
+
+<p>Durante unos segundos, el resto de la gente no le toma en cuenta. Samuel se acerca, un paso mas, y otro. Le mira, feliz.</p>
+
+<p>Las personas que le rodean son tan ruidosas como el rubio, risas en voz alta, an&eacute;cdotas mil veces contadas en reuniones familiares. Amigos demasiado entusiasmados con la ceremonia, se palmean, unos a otros. Nadadores de su equipo, entrenador y personal m&eacute;dico, todos ah&iacute;, para apoyarles en su d&iacute;a. </p>
+
+<p>Por que es una boda, su boda, y es su d&iacute;a, de ellos.</p>
+
+<p>Samuel da un paso mas, cada vez mas cerca. Los segundos se suceden mientras graba en sus ojos azules esa preciosa visi&oacute;n, la de Marc ah&iacute;, esperando por &eacute;l, para unirse en un v&iacute;nculo sagrado que ninguno de los dos necesita para saber lo que sienten el uno por el otro, pero a&uacute;n as&iacute;, es tan vital como respirar.</p>
+
+<p>Es justo ah&iacute;, cuando alguien le tiene en cuenta. No sabe quien, pero el bullicio va menguando hasta convertirse en un susurro que se hace silencio.</p>
+
+<p>Todas las personas vueltas hacia &eacute;l, todos los ojos del mundo mir&aacute;ndole.</p>
+
+<p>No sabe por qu&eacute;, justo en ese momento, en su cabeza se sucede &ldquo;susurro de besos&rdquo;, esa canci&oacute;n que ha sido y ser&aacute; la hermosa base de su relaci&oacute;n.</p>
+
+<p>Un paso mas, quiere hacerlo bien, pero Marc tiene otros planes, mucho mas atractivos.</p>
+
+<p>Es verle y salir corriendo en su direcci&oacute;n.</p>
+
+<p>Acuna su cara con las dos manos, le besa, una y otra vez. Mejillas, nariz, puente de las gafas, frente y rizos, barbilla, labios... ni una sola porci&oacute;n de su rostro queda sin besar.</p>
+
+<p>&ndash;Dios, que guapo, que guapo est&aacute;s.</p>
+<p> &ndash; Miles de besos entre cada palabra, un susuro enamorado entre cada beso. </p>
+<p>&ndash;Que guapo est&aacute;s.</p>
+<p> &ndash; Repite una y otra vez, ya no sabe si para si mismo, o para Samuel.</p>
+
+<p>&ndash; Tu tambi&eacute;n, est&aacute;s mmm &#8230;</p>
+<p> &ndash; No puede ni terminar la frase.</p>
+
+<p>Le est&aacute; besando, mucho mas all&aacute; de la palabra. Los ojos que les contemplan silenciosos, ahora les vitorean, divertidos. Los mas adultos, sensatos, solo ruedan los ojos, comprendiendo, aunque no conformes con el espect&aacute;culo.</p>
+
+<p>&ndash; Est&aacute; bien, ya basta.</p>
+<p> &ndash; Marc escucha a su madre, voz severa, rega&ntilde;&aacute;ndole como cuando era ni&ntilde;o, pero con un puntito feliz.</p>
+<p> &ndash; Todo el mundo est&aacute; esperando, luego pod&eacute;is besuquearos a gusto. Ahora vamos a entrar, que el juez no va a estar aqu&iacute; todo el d&iacute;a para vosotros.</p>
+
+<p>Samuel avergonzado, se da cuenta de que se ha dejado llevar en alg&uacute;n momento del beso, pero aparte del leve sonrojo en sus mejillas, poco mas se le nota.</p>
+
+<p>Sus dedos entrelazados, manos unidas en una caricia perfecta; abren el paso, juntos.</p>
+
+<p>Tras ellos, en la peque&ntilde;a sala del juzgado, extra&ntilde;amente c&aacute;lida, en madera caoba y luminosa, su familia y amigos van tomando sitio. Son tantos, que algunos acaban de pie; no les importa.</p>
+
+<p>Hay flores, en la mesa central en la que descansa su acta matrimonial, esperando ser firmada y darle validez.</p>
+
+<p>Los novios no preguntan, pero ambos intuyen que las &ldquo;madres&rdquo; han tenido algo que ver. </p>
+
+<p>Entra el juez y una docena de m&oacute;viles y c&aacute;maras les enfocan.</p>
+
+<p>Hay tanta felicidad en ese peque&ntilde;o cuarto, tantas sonrisas, tanto amor, tanto, que es imposible no notarlo.</p>
+
+<p>Perdido en la profundidad de sus ojos, Samuel no escucha al juez recitando las leyes y preceptos sobre el matrimonio que est&aacute;n a punto de contraer. Un contrato, con derechos y deberes, miles de cosas que les unir&aacute;n, desde ese instante. </p>
+
+<p>El magistrado comprende que tiene que repetirlo, aunque les llama la atenci&oacute;n, para que al menos tengan el detalle de prestar atenci&oacute;n la segunda vez, los dos.</p>
+
+<p>Marc sonr&iacute;e, aprieta sus manos unidas. Toda su atenci&oacute;n en el tacto de esa suave mano que lo toca; las palabras que debe escuchar, lejanas y en segundo plano.</p>
+
+<p>Intercambian los anillos, o lo intentan. El de Marc cae, bota y rueda por la sala, hasta que Oscar lo intercepta. </p>
+
+<p>Su boda se est&aacute; llenando de risas y no puede ser un comienzo mas adecuado.</p>
+
+<p>Samuel se pierde en el brillo met&aacute;lico que adorna su dedo, tan bonito y precioso. Ahora tiembla, de emoci&oacute;n. La realidad de que por fin, est&aacute;n casados, le llega como un ente vivo que planea a su alrededor por toda la sala, acechando.</p>
+
+<p>El juez sigue hablando, los testigos firman, ellos se miran, enamorados hasta el l&iacute;mite de esa palabra tan enorme y viva.</p>
+
+<p>Solo falta eso, su firma, y estar&aacute;n realmente casados. Para la administraci&oacute;n ser&aacute;n un matrimonio de pleno derecho, para ellos mismos y los suyos, su vida matrimonial empez&oacute; mucho antes, cuando hicieron el amor en el asfixiante Par&iacute;s, a&ntilde;os atr&aacute;s.</p>
+
+<p>Ahora Samuel es un violinista titulado, Marcos, un excelente nadador ol&iacute;mpico. Ambos separados para formar su futuro adecuadamente, pero siempre en el pensamiento del otro.</p>
+
+<p>Atr&aacute;s quedan las horas al tel&eacute;fono, en el ordenador, vi&eacute;ndose en la pantalla titilante a deshoras, cansados o frustrados por alguna decepci&oacute;n, pero siempre deseando ese momento del d&iacute;a, en el que por f&iacute;n pod&iacute;a ver su sonrisa, o escuchar sus quejas o sus obscenidades de lo mas marranas.</p>
+
+<p>Luchando sin descanso contra la tristeza por la ausencia, contra los &ldquo;amigos&rdquo; que no les vaticinaban mas de unos pocos meses, contra madres y amigas que intentaban mantener su alegr&iacute;a arriba, en lo mas alto; y por encima de todo su promesa, la de amarse a pesar de todo.</p>
+
+<p>Y ah&iacute; estaban.</p>
+
+<p>A punto del s&iacute; quiero.</p>
+
+<p>No es necesario, en una boda civil, pero la madre de Marc lo ha pedido, y pobre del que se atreva a negarle algo a la preciosa madrina.</p>
+
+<p>&ndash; Samuel.</p>
+<p> &ndash; El juez se dirige a &eacute;l en primer lugar.</p>
+<p> &ndash; &iquest;Consientes en contraer matrimonio con Marcos, aqu&iacute; presente, en plenas facultades mentales, sin ning&uacute;n tipo de coacci&oacute;n o amenaza, por voluntad propia, cumpliendo la ley y normas del estado establecidas para ello?.</p>
+
+<p>&ndash; S&iacute; se&ntilde;or, por supuesto que si. </p>
+<p>&ndash; Una risita escapa del rubio, sin permiso.</p>
+
+<p>&ndash; &iquest;Y tu, Marcos? &iquest;Consientes del mismo modo, y con las condiciones y valores ya explicados a tu pareja?. </p>
+<p>&ndash; El juez se gira levemente a un lado, para encarar al otro novio.</p>
+
+<p>&ndash; Claro que si, para siempre. </p>
+<p>&ndash; Su respuesta, tan abierta y sincera, hace que el sonrojo del moreno llegue a sus orejas.</p>
+
+<p>&ndash; Si alguien tiene algo que aportar por lo que este matrimonio no pueda ser legal, ahora es el momento.</p>
+<p> &ndash; Mir&oacute; a los presentes, uno a uno, a la espera.</p>
+
+<p>Silencio, lleno de sonrisas felices por parte de todos los presentes.</p>
+
+<p>&ndash; Bien entonces, os declaro matrimonio en pleno derecho. </p>
+<p>&ndash; Esper&oacute; que los dos firmaran, cada uno bajo su nombre. </p>
+<p>&ndash; Enhorabuena y &#8230; pod&eacute;is besaros.</p>
+
+<p>No es que necesitaran permiso para hacerlo, y ambos eran conscientes de que una boda civil no ten&iacute;a toda la parafernalia hablada de una religiosa, pero ese toque final, ese &ldquo;puedes besar a tu novio&rdquo; era algo que s&iacute; esperaban.</p>
+
+<p>Si a&uacute;n quedaba una pizca de verg&uuml;enza en el rubio, se acababa de ir por la ventana con esa frase.</p>
+
+<p>Tom&oacute; su cintura con un brazo, y le hizo trastabillar hacia atr&aacute;s. </p>
+
+<p>Por supuesto, su boda ten&iacute;a que terminar con un beso peliculero.</p>
+
+<p>Mientras todos le felicitaban y vitoreaban de lo mas contentos, los padres de Marc y y el de Samuel, se acercaron junto con t&iacute;a Rosa a pagar al juez.</p>
+
+<p>Se marcharon con los amigos, compa&ntilde;eros. Fotos en el parque, haciendo posturitas, juntos, por separado.</p>
+
+<p>Unos con otros, juntos, amontonados y revueltos. Bromeando con la barriga de Sara, a la que quer&iacute;an mucho mas que una hermana o amiga.</p>
+
+<p>Los mayores, en el restaurante, sencillo y coqueto, hablaron largo y tendido. Era algo que deb&iacute;an haber hecho hace tiempo, sentarse y hablar sobre los chicos. Pero el orgullo y los reproches mutuos, les hab&iacute;an mantenido alejados los unos de los otros.</p>
+
+<p>Una boda, era una muy buena excusa para iniciar lazos, al fin y al cabo, y por mucho que se molestaran, a partir de ese d&iacute;a, ser&iacute;an familia.</p>
+
+<p>Hablaron sobre si el matrimonio les har&iacute;a abuelos... y aunque la madre de Marc lo tachara de locura y tonter&iacute;a imposible, su padre no estaba tan seguro... y conociendo a Samuel, y todo lo que hab&iacute;a logrado en esos a&ntilde;os junto a Marc, su padre tampoco apostaba en contra.</p>
+
+<p>Como ser&iacute;an padres quedaba para otra ronda de tertulia adulta, pero hoy, estaban de feliz celebraci&oacute;n, y discutir entre ellos era un gasto de saliva innecesaria.</p>
+
+<p>El banquete se sucedi&oacute;, entre risas. El d&iacute;a entero estuvo lleno de ellas, no hab&iacute;a nadie en todo aquel grupo de personas que pensara en una sola cosa que fuera negativa.</p>
+
+<p>Era algo que hab&iacute;an luchado juntos, contra ellos como padres, que hab&iacute;a querido lo mejor para ambos, aunque no siempre estuvieran haciendo lo correcto.  Contra el destino que se empe&ntilde;aba en separarlos, ponerles trabas, mentiras, celos, inseguridades y dolor.</p>
+
+<p>Contra la traici&oacute;n, la mas vil y despiadada, la que te rompe el coraz&oacute;n en mil pedazos imposibles de recomponer, meses de incertidumbre, de l&aacute;grimas y despecho.</p>
+
+<p>Contra todo, su lucha no les dio tregua, ni un momento; pero se hab&iacute;an alzado sobre los problemas con una sonrisa.</p>
+
+<p>Madurando, despacio, cada uno por su lado, a su manera. Y Par&iacute;s... el calor, besos furtivos, parejas imaginarias, &ldquo;susurro de besos&rdquo; en el viol&iacute;n, medallas de oro... Chocolate con nata....&#8230;.</p>
+
+<p>&ndash; &iquest;Ya hace un a&ntilde;o, eh?.</p>
+<p> &ndash; Samuel deja el viol&iacute;n con cuidado en el asiento trasero del coche.</p>
+
+<p>No pregunta, sabe que Marc lleva todo el a&ntilde;o organizando el aniversario, y cada vez que se le ocurr&iacute;a tratar de fisgonear, se llevaba una sesi&oacute;n de morros y reniegos por parte del rubio.</p>
+
+<p>Y eso que ser discreto no era uno de sus fuertes, pero quer&iacute;a hacerlo bien, por ser el primero que iban a celebrar.</p>
+
+<p>Nueva York era una ciudad impresionante.</p>
+
+<p>Y aunque no hab&iacute;a sido su primer concierto como figura principal, ni era su primera visita a la gran manzana, a&uacute;n se sent&iacute;a intimidado sobre las tablas, y mas cuando estaba lejos de su hogar.</p>
+
+<p>Mirando por la ventanilla, la ciudad se suced&iacute;a en silencio, solo roto por las noticias, de fondo en la radio del coche.</p>
+
+<p>&ndash; Has estado genial, como siempre.</p>
+<p> &ndash; Le mira, aprovechando un sem&aacute;foro, palmea su muslo y vuelve a colocar la mano en la palanca de cambios.</p>
+<p> &ndash; Casi hemos llegado.</p>
+
+<p>El aparcacoches les recibe, en la entrada del hotel. </p>
+
+<p>Camina a su lado, con el viol&iacute;n en su mano, sujeto por el asa. Los pasillos del hotel, rojos y dorados, le encantan. La luz que lo inunda todo, Marc en esmoquin.</p>
+
+<p>Y su primer a&ntilde;o como casados, tontos enamorados.</p>
+
+<p>Tira de una punta, deshaciendo la pajarita y guard&aacute;ndola en el bolsillo de su chaqueta.</p>
+
+<p>&ndash; No te quites nada mas, del resto me encargo yo.</p>
+<p> &ndash; &ldquo;Le rega&ntilde;a&rdquo;, agarr&aacute;ndole el culo con descaro, mano abierta apretando la carne sobre el pantal&oacute;n negro.</p>
+
+<p>&ndash; Ahora tengo mas ganas de esa fiesta. </p>
+<p>&ndash;Su mano tantea las caderas del nadador en cada paso. Sonr&iacute;e de lado.</p>
+
+<p>En el ascensor, al final del pasillo, las manos se pierden entre las capas de ropa. </p>
+
+<p>&ndash; &iquest;Cu&aacute;nto vamos a subir?. Para saber cuanto tiempo puedo meterte mano. </p>
+<p>&ndash; Otra risita, entre besos.</p>
+
+<p>&ndash; Nada de marranadas hasta que lleguemos, o fastidiar&aacute;s la sorpresa. </p>
+<p>&ndash; Sus palabras y sus actos no se corresponden; sigue bes&aacute;ndole con ganas.</p>
+
+<p>Llegan arriba del todo, a la azotea acristalada.</p>
+
+<p>Una piscina para ellos, la cena a un lado, frente a ellos, la ciudad entera para ser contemplada.</p>
+
+<p>Rosas flotan en el agua, rojas, rosas, blancas, todas las que Mark ha podido comprar de una vez.</p>
+
+<p>Carne asada con patatas, champagne, ensalada.</p>
+
+<p>&ndash; Que cursi eres.</p>
+<p> &ndash; Samuel busca un sitio para su viol&iacute;n, y deja la chaqueta encima. Desabotona dos botones, para estar mas c&oacute;modo.</p>
+
+<p>&ndash; &iquest;Te gusta o no?.</p>
+<p> &ndash; Suena preocupado, aunque mas que contento.</p>
+
+<p>&ndash; Claro que si. </p>
+<p>&ndash; El moreno le besa, en la mejilla, recorriendo con la mirada el espacio &iacute;ntimo para su disfrute. </p>
+<p>&ndash; Cada vez que veo una piscina me acuerdo de ese d&iacute;a... </p>
+<p>&ndash;Le mira, muerde su labio inferior. </p>
+<p>&ndash; Espero que la sorpresa no sea la comida y las vistas, que me encantan, no te lo niego, pero quiero &#8230; ya sabes.</p>
+
+<p>&ndash; Mark de postre, marchando.</p>
+<p> &ndash;Toma su mano, le gu&iacute;a hasta la mesa, y le mueve la silla, caballeroso.</p>
+
+<p>En lugar de tomar asiento frente a &eacute;l, arrastra la silla y la pega a su lado. </p>
+
+<p>Va a darle de comer, de beber, a limpiar sus labios con los suyos, a no dejarle ni un solo bocado sin supervisi&oacute;n.</p>
+
+<p>&ndash; &iquest;Has cocinado?.</p>
+<p> &ndash; Es sorprendente, quiz&aacute; por que est&aacute; delicioso, y a la temperatura adecuada, y teniendo en cuenta que estaba en el concierto, los tiempos no cuadraban.</p>
+
+<p>&ndash; Para ti, por supuesto. </p>
+<p>&ndash; Toma una porci&oacute;n, en la punta del tenedor, y la acerca a su boca.</p>
+<p> &ndash; En realidad lo hice por la ma&ntilde;ana, solo ped&iacute; que lo calentaran para cuando volviera contigo.</p>
+
+<p>&ndash; Est&aacute; muy rico, gracias. </p>
+<p>&ndash; Saborea con gusto.</p>
+
+<p>&ndash; Gracias a ti, por este a&ntilde;o juntos.</p>
+<p> &ndash; Se inclina, para besarle.</p>
+
+<p>Es dulce, lento y agradable, sincero.</p>
+
+<p>En alg&uacute;n momento durante el beso, la cena queda olvidada, se entibia y acaba enfri&aacute;ndose a medio comer.</p>
+
+<p>Las sillas son peque&ntilde;as, no sirven para lo que el nadador tiene en mente.</p>
+
+<p>&ndash; He reservado una suite, por si te pon&iacute;as demasiado cari&ntilde;oso. </p>
+<p>&ndash; Besa su cuello, entre palabras.</p>
+
+<p>&ndash; Me gusta la piscina.</p>
+<p> &ndash; Corresponde sus caricias, aunque tira de &eacute;l hasta ponerle de pie, al borde de la piscina, aparta la chaqueta del rubio, y tironea con la camisa hasta sacarla de la cinturilla.</p>
+
+<p>Seguro que la suite est&aacute; bien, es c&oacute;moda y bonita, pero no piensa en nada mas all&aacute; que el siguiente movimiento.</p>
+
+<p>A&uacute;n debajo de la ropa, el cuerpo de Mark es una aut&eacute;ntica tentaci&oacute;n. Imposible negarse a sus encantos, y tampoco es que como si quisiera dejarlo escapar.</p>
+
+<p>Fuera la camisa, el cintur&oacute;n. Tira de sus pantalones, y lo que encuentra piernas abajo.</p>
+
+<p>Samuel se detiene, un instante.</p>
+
+<p>Le contempla, ensimismado, casi con adoraci&oacute;n. Su cuerpo mas adulto, mas fibroso y trabajado, es tan bonito, tan apetecible, tan hermoso... tanto.</p>
+
+<p>Cae de rodillas, frente a &eacute;l. Quiere besarle, solo su vientre, en el l&iacute;mite del vello... un poco mas abajo, a la pulsante masa de carne que sale a su encuentro, a la mara&ntilde;a de vello el&eacute;ctrico y rizado que lo adorna. </p>
+
+<p>&ndash; Pueden vernos, Samuel.</p>
+<p> &ndash; Es mentira, pero de repente se siente mas desnudo que nunca, ah&iacute;, de pie junto a la piscina y con los pantalones en los tobillos.</p>
+
+<p>Quiz&aacute; no es por la postura, si no por los labios del moreno en su cuerpo, desvergonzados y suaves, calent&aacute;ndole mas all&aacute; de lo permitido.</p>
+
+<p>&ndash; Pues que miren.</p>
+<p> &ndash; No va a pararse, no en ese momento. </p>
+<p>&ndash; Que no se pierdan nada de lo que voy a hacerte.</p>
+
+<p>Marc se tapa la boca con el dorso de la mano, ocultando un gemido que lucha por salir sin su permiso.</p>
+
+<p>&ndash; Vamos al agua, ya no aguanto mas.</p>
+<p> &ndash; Salta sin esperarle, esperando que le siga con todas sus ganas.</p>
+
+<p>Escucha el chapoteo del otro cuerpo bajo el agua, un instante antes de salir haciendo pie.</p>
+
+<p>&ndash; Tus gafas. </p>
+<p>&ndash; Samuel alarga la mano, y las toma, dej&aacute;ndolas en el borde, pero impidiendo que se aleje mas al centro.</p>
+
+<p>Le presiona contra la pared, una sonrisita pervertida se instala en sus labios. Su azul mirada se prende de las peque&ntilde;as gotitas, que brillan en la piel del rubio hasta el l&iacute;mite del agua y vuelve arriba, a sus labios, que le encantan.</p>
+
+<p>Ambos est&aacute;n al l&iacute;mite de lo humanamente soportable y si eso es parte de la celebraci&oacute;n, Samuel est&aacute; dispuesto ha emplearse a fondo, tanto para disfrutarlo como para complacer a su marido. </p>
+
+<p>La primera embestida llega, dej&aacute;ndole sin aliento. La acci&oacute;n se detiene, unos segundos, llena con la m&uacute;sica acuosa de los cuerpos de los dos encontr&aacute;ndose dentro del l&iacute;quido.</p>
+
+<p>El eco de sus voces va un poco mas all&aacute; de sus o&iacute;dos, resuena en sus cabezas, de un modo cotidiano y al mismo tiempo ajeno, fuera de s&iacute; mismos.</p>
+
+<p>Un vaiv&eacute;n cadencioso mueve sus cuerpos, como una danza solo para ellos.</p>
+
+<p>Marc besa sus manos cuando aparecen frente a &eacute;l, en el borde de la piscina.</p>
+
+<p>Ama esos dedos, y lo que puede hacer con ellos. La m&uacute;sica que nace en sus yemas, la siente en su cuerpo cada vez que le roza, en cada caricia, las notas que el viol&iacute;n entona resuenan en sus poros, en su piel, en todo el cuerpo entero.</p>
+
+<p>&ndash; Samuel, yo.... Sa... </p>
+<p>&ndash; Sale a su encuentro sin pretenderlo en cada empuje. Sus caderas chocan de frente contra pared de la piscina, y de espaldas contra las caderas del moreno, que lejos de darle lo que quiere, se limita a hacer las embestidas mas lentas, profundas y certeras.</p>
+
+<p>Ya no puede mas, no quiere poder mas. Simplemente se deja llevar; al fin y al cabo tienen mucho aniversario que vivir...</p>
+
+<p>El gemido profundo y lastimero que escapa de sus labios se hace eterno, reverbera en su pecho y recorre el camino de salida imparable.</p>
+
+<p>Samuel se derrumba en su espalda, besa, lame y relame su hombro, el cuello, el espacio en que los cabellos nacen mas cortos en su nuca.</p>
+
+<p>Sonr&iacute;e maligno, cuando al salir de su cuerpo el rubio murmura una maldici&oacute;n entre dientes.</p>
+
+<p>Flota, boca arriba, haciendo el muerto. Una sonrisa en su cara, inmensa, tan enorme que casi es una falta de respeto.</p>
+
+<p>Mark le sigue con la mirada, desde el borde. Sigue en el mismo sitio, solo se ha dado la vuelta, posando sus codos en el borde para mirarle.</p>
+
+<p>La sensaci&oacute;n de placer a&uacute;n le envuelve por todas partes, su pulso sigue alterado, siente la m&uacute;sica de Samuel en su cuerpo, mucho mas ahora que est&aacute;n en silencio.</p>
+
+<p>Un par de brazadas le acercan a &eacute;l, que sigue haci&eacute;ndose el muerto, dejando que el agua le sostenga en un pl&aacute;cido viaje del que no tiene que preocuparse por la direcci&oacute;n.</p>
+
+<p>&ndash; A&uacute;n no te he dado tu regalo. </p>
+<p>&ndash; Samuel le mira, interesado. </p>
+<p>&ndash; Tenemos que ir a la habitaci&oacute;n.</p>
+
+<p>Conoci&eacute;ndole espera un perrito, un gato, una iguana.... Mark es capaz de comprarle una mascota para luego qued&aacute;rsela &eacute;l.</p>
+
+<p>Pero nada en su imaginaci&oacute;n le prepar&oacute; para el verdadero regalo.</p>
+
+<p>Una hoja, sobre la mesa. </p>
+
+<p>El boli encima.</p>
+
+<p>Ley&oacute;, una docena de veces, las palabras. Las entend&iacute;a, si, eran f&aacute;ciles de comprender, pero era un gran paso en sus vidas.</p>
+
+<p>Grande no, inmenso.</p>
+
+<p>&ndash; &iquest;Es en serio?. </p>
+<p>&ndash; Samuel duda, envuelto en el albornoz, cabello a&uacute;n mojado de la piscina.</p>
+
+<p>&ndash; Solo tienes que firmar ah&iacute;, y se iniciar&aacute; el tr&aacute;mite.</p>
+<p> &ndash; Le besa en la sien, amor puro.</p>
+
+<p>&ndash; P-pero tu y yo... &iquest;En serio?. &ndash; Ahora la duda suena angustiosa, apretada en su pecho.</p>
+
+<p>&ndash; Quiero que tengamos un hijo... ser&aacute; genial, ya ver&aacute;s. </p>
+<p>&ndash; Le abraza, sacude, sonr&iacute;e. </p>
+<p>&ndash; No ser&aacute; inmediatamente, esto lleva su tiempo &#8230; pero cuanto antes lo empecemos antes llegar&aacute;, &iquest;Qu&eacute; me dices? &iquest;Quieres quedarte embarazado?.</p>
+
+<p>Bromea, con tanta gracia, que Samuel acaba por darle un codazo en las costillas, despacito. Como regalo de aniversario era, como poco, impactante.</p>
+
+<p>&ndash; Si, por qu&eacute; no. </p>
+<p>&ndash; Le da un besito en las costillas, en el lugar del golpe. </p>
+<p>&ndash; Pero tu se lo dices a tu madre.</p>
+
+<p> Abre los ojos, sorprendido.</p>
+
+<p>La idea de ser padres era buena cuando pens&oacute; en ella, aunque no tom&oacute; en cuenta al resto...</p>
+
+<p>Eso ya llegar&iacute;a, ahora, perdido en la visi&oacute;n de sus rizos, imaginaba a Samuel, ense&ntilde;ando a andar a un peque&ntilde;o regordete, mostr&aacute;ndole la belleza de la m&uacute;sica, de su creaci&oacute;n y viveza.</p>
+
+<p>Imaginaba a su madre, protestando, por las miles de cosas por las que una abuela protesta, con la que les muestra lo f&aacute;cil que es aquello que, como padres primerizos, tan mal se les da a ellos.</p>
+
+<p>Pod&iacute;a ver al ni&ntilde;o de Sara y David, jugando con el suyo, chinch&aacute;ndole, ense&ntilde;&aacute;ndole trastadas como un hermano mayor perfecto...</p>
+
+<p>Haciendo galletas, poniendo todo perdido de harina y mantequilla, galletas o proyecto de ellas, amasadas con dedos regordetes y peque&ntilde;os, con mucho mas cari&ntilde;o que otra cosa, llev&aacute;ndoselas a Samuel a la cama, los dos sucios y sonrientes.</p>
+
+<p>Su primer chapuz&oacute;, d&iacute;a de colegio, cumplea&ntilde;os de amigos. el primer amor, la primera desilusi&oacute;n, el segundo amor....&#160;</p>
+
+<p>A&ntilde;os que no se detienen por nadie ni por nada.</p>
+
+<p>Una vida, a su lado, una familia, un todo. </p>
+
+<p>El final de un camino que nunca termina, que siempre contin&uacute;a, una y otra vez, en los hijos de los hijos, ense&ntilde;ando aquello que dejamos atr&aacute;s a los siguientes.</p>
+
+<p>Y en ese aniversario, el primero de muchos, quer&iacute;a, esperaba que el mundo, el destino, o quien fuera, le concediera eso, una vida feliz, juntos, sanos, sonrientes.</p>
+
+<p>Y el resto... bueno, eso lo dejamos para cuando llegue, &iquest;No?.</p>
+
+<p>&#8230; &ndash; Fin &ndash; ...</p>
+
+<p> </p>
+</div>
+
+
+
+
+
+
+	</section>
+	</body>
+</html>			

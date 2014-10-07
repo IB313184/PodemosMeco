@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\PodemosMeco\app\build\intermediates\pre-dexed\release\classes-ef31cc9ff64237b9a404dc79a9fba87d16cdb921.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\PodemosMeco\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\PodemosMeco\app\build\intermediates\pre-dexed\release\droidText.0.2-ab62ce35c302f57d63f647d0e0c69be42163d1d4.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\PodemosMeco\app\libs\droidText.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8d3b2e377acd34e33c3e758aa512e1745c2c9401"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\app\build\intermediates\pre-dexed\release\droidText.0.2-126c5ebcf1eecd2193274270edc3c40668191c3a.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\app\libs\droidText.0.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8d3b2e377acd34e33c3e758aa512e1745c2c9401"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\app\build\intermediates\pre-dexed\release\classes-125f2bc94fa4c68b9d54a23dc11ed0c052fc9c54.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.3.23\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7676c0cb230efa6ac41c47867d372ed5913029d4"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\app\build\intermediates\pre-dexed\release\support-v4-19.1.0-7672f1b5cc7e8e8b29689406d58771d5e38138df.jar"
+        jar="C:\Android-Sdk\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\PodemosMeco\app\build\intermediates\pre-dexed\release\support-annotations-20.0.0-7a44afeda271122b0d0de5dc774e78fbbe0c01fa.jar"
+        jar="C:\Android-Sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\PodemosMeco\app\build\intermediates\pre-dexed\release\classes-c68434a04b46130ddbf3079b15f1c3e6780f5964.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\PodemosMeco\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.3.23\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7676c0cb230efa6ac41c47867d372ed5913029d4"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\PodemosMeco\app\build\intermediates\pre-dexed\release\classes-dd52bf8cc47d9e4d6bdc9a07623949d2227711bc.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\PodemosMeco\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\PodemosMeco\app\build\intermediates\pre-dexed\release\internal_impl-20.0.0-25999fd2dc38ce84351acb0d73249455717fd300.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\PodemosMeco\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\app\build\intermediates\pre-dexed\release\classes-c598db3b6a3e48548cbf2c053043f60e74c4b184.jar"
+        jar="C:\Download\AndroidDevelopingFlashlightApplication\AndroidPDFDemo1 - intento ultimo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+
+</pre-dex-items>

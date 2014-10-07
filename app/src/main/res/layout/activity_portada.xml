@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/margen">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:layout_margin="10dp"
+            android:onClick="onClick"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:text="Leer"
+            android:layout_margin="10dp"
+            android:onClick="LeerLibro"
+            android:layout_gravity="right|bottom" />
+
+        <ImageView
+            android:layout_width="168dp"
+            android:layout_height="157dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/logo2"
+            android:layout_gravity="left|bottom" />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="By ShigaShan"
+            android:id="@+id/textView2"
+            android:layout_weight="0.18"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:textColor="#ff20ff00" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Susurro De Besos"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|top"
+            android:textStyle="bold|italic"
+            android:textSize="36dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="100dp"
+            android:textColorLink="#ff1d00ff"
+            android:textColorHint="#ff0305ff"
+            android:textColor="#ff0017ff"
+            android:typeface="normal"
+            android:textIsSelectable="false"
+            android:textAlignment="center"
+            android:singleLine="false" />
+
+    </FrameLayout>
+</LinearLayout>
